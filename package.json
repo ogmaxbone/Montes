@@ -1,0 +1,29 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-proxy": "^0.3.3",
+    "discord-webhook-node": "^1.1.8",
+    "discord.js": "^12.5.3",
+    "https-proxy-agent": "^5.0.0",
+    "icmp": "^2.0.1",
+    "net-ping": "^1.2.3",
+    "node-mp3-player": "^1.0.3",
+    "node-notifier": "^9.0.1",
+    "ping": "^0.4.1",
+    "ping-monitor": "^0.6.1",
+    "ping-wrapper": "0.0.3",
+    "proxy-checker": "^1.0.0",
+    "sound-play": "^1.1.0"
+  },
+  "devDependencies": {
+    "electron": "^12.0.5"
+  }
+}

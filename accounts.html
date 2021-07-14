@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Montes</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/jquery.nice-number.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+    <div class="menu-trigger">
+        <i class="fal fa-bars"></i>
+    </div>
+
+
+
+
+
+
+    <div class="main-section">
+        <!------ Side-menu warp Start ----->
+        <div class="silde-menu">
+            <div class="menu-list">
+                <ul>
+                    <li><a href="task.html"><i id="taskPage"></i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></a></li>
+                    <li><a href="profile.html"><i id="profilePage"></i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg></a></li>
+                    <li><a href="proxies.html"><i id="proxyPage"></i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></a></li>
+                    <li><a href="accounts.html"><i id="accountPage"></i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></a></li>
+                    <li><a href="setting.html"><i id="settingsPage"></i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></a></li>
+                </ul>
+            </div>
+            <div class="propic">
+                <img src="https://cdn.discordapp.com/avatars/215974281341829120/bdf345be1abd2bc4ecc96ea6a560d136.webp?size=256" alt="">
+                <p>v0.3.6</p>
+            </div>
+        </div>
+        <!------ Side-menu warp Start ----->
+
+        <div class="main-content-warp">
+
+           <span class="connected"><span class="dot"></span> Connected</span>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="top-bar">
+                            <div class="search-box">
+                                <h4 id="accountCount"></h4>
+                                <div class="search">
+                                    <input type="text" name="" id="" placeholder="Search..">
+                                    <button><i class="fal fa-search"></i></button>
+                                </div>
+                            </div>
+                            <div class="top-list">
+                                <ul>
+                                    <li><a data-toggle="modal" data-target="#popupOne" href=""><i class="fal fa-plus"></i></a></li>
+                                    <li><a  data-toggle="modal" data-target="#popupThree"><i><svg id="accountTrash" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></i></a></li>
+                                    <li><a><i><svg id="accountImport" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-plus"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg></i></a></li>
+                                    <li><a><i><svg id="accountExport" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-minus"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="9" y1="15" x2="15" y2="15"></line></svg></i></a></li>
+                                </ul>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid">
+                <div class="kit-table-warp account-table">
+                    <div class="table-scrolly ">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Account Name</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Password</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody id="accountTable">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade modal-one" id="popupOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="create-title">
+                            <h4>Create Account</h4>
+                        </div>
+                        <form action="">
+                            <div class="create-from">
+                                <div class="row">
+                                    <div id="storeBorder" class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Store<span id="storeRequired" style="color: red;"></span></label>
+                                            <select name="" id="storeName">
+                                                <option value="">Select</option>
+                                                <option value="Target">Target</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div id="accountBorder" class="single-form">
+                                                <label for="">Account Name<span id="accountRequired" style="color: red;"></span></label>
+                                               <input type="text" name="" id="account" placeholder="Target 1">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Username<span id="usernameRequired" style="color: red;"></span></label>
+                                           <input type="text" name="" id="username" placeholder="dev@montesaio.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Password<span id="passwordRequired" style="color: red;"></span></label>
+                                           <input type="text" name="" id="password" placeholder="mountains">
+                                        </div>
+                                    </div>
+                                    <em><p id="emptyField" style="transform: translate(8%,20%); color: red;"></p></em>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="create-btn">
+                                    <i id="check" data-dismiss="modal"><svg href="" onclick="buildAccounts()" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="popupThree" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                            <p>Are you sure you want to delete all accounts?</p>
+                        <div class="delete-sure-btn">
+                            <a onclick="massDelete()" href="">Yes</a>
+                            <a href="">No</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="modal fade modal-one" id="editPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="create-title">
+                            <h4>Edit Account</h4>
+                        </div>
+                        <form action="">
+                            <div class="create-from">
+                                <div class="row">
+                                    <div  class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Store<span style="color: red;"></span></label>
+                                            <select name="" id="editstoreName">
+                                                <option value="">Select</option>
+                                                <option value="Target">Target</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div id="accountBorder" class="single-form">
+                                                <label for="">Account Name<span style="color: red;"></span></label>
+                                               <input type="text" name="" id="editaccount" placeholder="Target 1">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Username<span style="color: red;"></span></label>
+                                           <input type="text" name="" id="editusername" placeholder="dev@montesaio.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-form">
+                                            <label for="">Password<span style="color: red;"></span></label>
+                                           <input type="text" name="" id="editpassword" placeholder="mountains">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="create-btn">
+                                    <i id="editAccount1" data-dismiss="modal"><svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="popupThree" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                            <p>Are you sure you want to delete all accounts?</p>
+                        <div class="delete-sure-btn">
+                            <a href="">Yes</a>
+                            <a href="">No</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <!-- normal script imports etc  -->
+    <script src="scripts/jquery.min.js"></script>    
+    <script src="scripts/vendor.js"></script>    
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/Popper.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.nice-number.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $('input[type="number"]').niceNumber();
+    </script>
+    <script>
+        var fs = require('fs');
+
+        var accounts = fs.readFileSync('./accounts.json', 'utf-8');
+            accounts = JSON.parse(accounts)
+
+
+        function buildTable(data){
+		var table = document.getElementById('accountTable')
+        table.innerHTML = ''
+		for (var i = 0; i < data.length; i++){
+			var row = `<tr>
+                            <th class="cs-width">
+                                <div class="kit">
+                                    <div class="kit-img">
+                                       <img src="ASSETS/img/${data[i].store}.png" alt="">
+                                    </div>
+                                    <div class="kit-txt">
+                                        <h4>${data[i].accountName} </h4>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="cs-width">${data[i].username}</td>
+                            <td class="with-bdr"> <span onmouseleave="addBlur(this)"" onmouseover="removeBlur(this)" >${data[i].password}</span></td>
+                            <td class="bg-none">
+                                <div class="t-list pro-list">
+                                    <ul>
+                                        <li><a onclick="editAccounts(this)" data-toggle="modal" data-target="#editPopup" class="icn-ylw" href=""><i class="fas fa-pen"></i></a></li>
+                                        <li><a class="icn-red"  href=""><i class="fas fa-trash"></i></a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                          </tr>`
+                      //location.reload()
+			table.innerHTML += row
+		}
+	}
+    buildTable(accounts)
+  function removeBlur(element){
+    $(element).css('filter', 'blur(0px)')
+  }
+    function addBlur(element){
+    $(element).css('filter', 'blur(5px)')
+    setTimeout(addBlur,0)
+  }  
+  $( document ).ready(function() {
+      function blurloop(){
+  var table = document.getElementById('accountTable')
+		for (var i = 0; i < table.rows.length; i++){
+  addBlur(document.querySelector(`#accountTable > tr:nth-child(${i+1}) > td.with-bdr > span`)) 
+    }
+}
+blurloop()
+})
+function count(){
+        document.getElementById('accountCount').innerHTML = "Accounts (" + accounts.length + ' Total)'
+        setTimeout(count,0)
+    }   
+count()
+function buildAccounts(){
+    function fillArray(value, len) {
+            var tasks = fs.readFileSync('./accounts.json','utf-8')
+            var arr = JSON.parse(tasks);
+            for (var i = 0; i < len; i++) {
+            arr.push(value);
+                }
+            return arr;
+    }
+  
+
+        var storeField = document.getElementById('storeName')
+        var store = storeField[storeField.selectedIndex].value
+        var account = document.getElementById('account').value
+        var username = document.getElementById('username').value
+        var password = document.getElementById('password').value
+
+         var myarray = {
+            "store": store,
+            "accountName": account,
+            "username": username,
+            "password": password
+         }
+
+         if (store === ""){
+             document.getElementById('storeRequired').innerHTML = ' *'
+            $('#check').removeAttr("data-dismiss","modal");
+             document.getElementById('emptyField').innerHTML = 'Please fill in all required fields'
+             
+         }
+         if (account === ""){
+            document.getElementById('accountRequired').innerHTML = ' *'
+            $('#check').removeAttr("data-dismiss","modal");
+            document.getElementById('emptyField').innerHTML = 'Please fill in all required fields'
+         }
+          if (username === ""){
+            document.getElementById('usernameRequired').innerHTML = ' *'
+            $('#check').removeAttr("data-dismiss","modal");
+            document.getElementById('emptyField').innerHTML = 'Please fill in all required fields'
+         }
+          if (password === ""){
+            document.getElementById('passwordRequired').innerHTML = ' *'
+            $('#check').removeAttr("data-dismiss","modal");
+            document.getElementById('emptyField').innerHTML = 'Please fill in all required fields'
+         }
+         else{
+            document.getElementById('storeRequired').innerHTML = ''
+            document.getElementById('accountRequired').innerHTML = ''
+            document.getElementById('usernameRequired').innerHTML = ''
+            document.getElementById('passwordRequired').innerHTML = ''
+            $('#check').attr("data-dismiss","modal");
+         fs.writeFileSync('accounts.json',JSON.stringify(fillArray(myarray,1)))
+        location.reload(true)
+         }
+    }
+
+
+
+    function editAccounts(element){
+  
+            var myTable = document.getElementById('accountTable')
+            var count = $(element).closest("tr").index()
+            var accountCell = myTable.rows[count].cells[0]
+            var usernameCell = myTable.rows[count].cells[1]
+            var passwordCell = myTable.rows[count].cells[2]
+
+
+  
+         $( "#editAccount1" ).unbind().click(function() {
+             console.log('click')
+                var storeField = document.getElementById('editstoreName')
+                var store = storeField[storeField.selectedIndex].value
+                var account = document.getElementById('editaccount').value
+                var username = document.getElementById('editusername').value
+                var password = document.getElementById('editpassword').value
+
+                var myarray = {
+                    "store": store,
+                    "accountName": account,
+                    "username": username,
+                    "password": password
+                     }
+         if (store !== ""){
+             //storeCell = store
+            accounts[count]['store'] = store
+            fs.writeFileSync('accounts.json',JSON.stringify(accounts))
+         }
+         if (account !== ""){
+            document.querySelector(`#accountTable > tr:nth-child(${count+1}) > th > div > div.kit-txt > h4`).innerText = account
+            accounts[count]['accountName'] = account
+            fs.writeFileSync('accounts.json',JSON.stringify(accounts))
+         }
+          if (username !== ""){
+            usernameCell.innerText = username
+            accounts[count]['username'] = username
+            fs.writeFileSync('accounts.json',JSON.stringify(accounts))
+         }
+          if (password !== ""){
+            passwordCell.innerText = password
+            accounts[count]['password'] = password
+            fs.writeFileSync('accounts.json',JSON.stringify(accounts))
+            location.reload(true)
+         }
+        })
+    }
+function massDelete(){
+    fs.writeFileSync('./accounts.json','[]')
+}
+</script>
+</body>
+
+</html>
